@@ -3,9 +3,9 @@ from main import camper_age_input as cai
 
 
 class FunctionTestCase(unittest.TestCase):
-    def test_12_years_to_months(self):
-        #12 yearsold should be 144 months
-        self.assertEqual(144, cai.convert_to_months(12))
+    def test_5_years_to_months(self):
+        #5 years old should be 60 months
+        self.assertEqual(60, cai.convert_to_months(5))
 
 
 if __name__ == '__main__':
